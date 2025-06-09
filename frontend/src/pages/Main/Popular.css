@@ -1,0 +1,115 @@
+.popularDiv {
+  background: #ffe374;
+  width: 100%;
+  padding: 2rem 3rem;
+}
+
+.popularDiv .heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.popularDiv .heading .title {
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.popularDiv .heading .title::after {
+  content: "";
+  position: absolute;
+  background-color: hsl(187, 85%, 43%);
+  height: 5px;
+  width: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  z-index: -1;
+}
+
+.sectionForContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+.showedSection {
+  background-color: #ececf6;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(140, 140, 141, 0.5);
+  overflow: hidden;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(140, 140, 141, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.showedSection:hover {
+  background-color: rgb(206, 206, 241);
+  box-shadow: 0 4px 8px rgba(85, 85, 114, 0.5);
+}
+
+.imageSection {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+.cardSec {
+  flex-grow: 1;
+  margin-bottom: 0.5rem;
+}
+
+.cardSec .courseName {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0.7rem 0;
+}
+
+.cardSec .courseFee,
+.cardSec .prevFee,
+.cardSec .rating {
+  font-size: 14px;
+  margin-bottom: 0.3rem;
+}
+
+.feeAndRatingDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feeDiv {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.prevFee {
+  color: #666;
+  text-decoration: line-through;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  .icon {
+    color: hsl(48, 100%, 49%);
+    font-size: 20px;
+    background: none;
+  }
+}

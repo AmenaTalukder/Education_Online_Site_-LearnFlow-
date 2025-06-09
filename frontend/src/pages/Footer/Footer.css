@@ -1,0 +1,150 @@
+.footerDiv {
+  background-color: #e6c803;
+  width: 100%;
+  padding: 6rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.leftDiv,
+.middleDiv,
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Left Section --- */
+.leftDiv {
+  flex: 1 1 200px;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-left: 5rem;
+}
+
+.logoDiv {
+  align-items: flex-start;
+  margin-left: 22px;
+}
+
+.headerLogoh1 {
+  gap: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.LogoimageDiv {
+  width: 35px;
+  height: 35px;
+  background: var(--Icon);
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+}
+
+.brandLogo {
+  width: 25px;
+  height: auto;
+  object-fit: cover;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.phone p,
+.email p {
+  font-size: 11px;
+}
+
+.iconsDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.icon {
+  color: #fff;
+  background: rgb(176, 41, 176);
+  padding: 2px;
+  border-radius: 15px;
+}
+
+/* --- Middle Section --- */
+.middleDiv {
+  flex: 2 1 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+
+.middleDiv h1 {
+  font-size: 16px;
+}
+
+.middleDiv li {
+  font-size: 12px;
+  color: #3c3b3b;
+  margin: 0.3rem 0;
+  list-style: none;
+}
+
+/* --- Right Section --- */
+.rightDiv {
+  flex: 1 1 200px;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.title {
+  font-size: 18px;
+  color: #000;
+}
+
+.buttonEm {
+  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid rgb(46, 45, 45);
+  color: #797575;
+  padding: 0.2rem 3rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button {
+  margin-top: 0.5rem;
+  padding: 0.3rem 3.2rem;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1024px) {
+  .footerDiv {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .middleDiv {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .rightDiv {
+    width: 100%;
+    align-items: flex-start;
+  }
+}
