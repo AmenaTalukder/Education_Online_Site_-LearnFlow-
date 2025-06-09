@@ -2,7 +2,8 @@
 LearnFlow – Online Education Platform (Frontend) LearnFlow is a modern, responsive, and fully functional frontend interface for an online education platform. Designed with user experience in mind, LearnFlow helps students discover courses, connect with mentors, and explore blog content—all in one seamless interface.
 
 ## Demo
-![screencapture-localhost-3000-2025-06-06-14_39_10](https://github.com/user-attachments/assets/d73444c5-dabb-4cb4-8d7a-82e4cd305cb5)
+![screencapture-localhost-3000-2025-06-06-14_39_10](https://github.com/user-attachments/assets/541355df-a363-4122-aca9-1880d6e33f7f)
+
 
 
 # 🚀 Features
